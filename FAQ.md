@@ -1,7 +1,7 @@
 # FAQ
 
 ## What is terminal-recorder?
-Record terminal sessions as ASCII cast.
+Terminal Recorder
 
 ## Dependencies?
 Python stdlib only.
