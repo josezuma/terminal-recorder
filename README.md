@@ -1,8 +1,8 @@
 <div align=center>
-  <h1>terminal-recorder</h1>
-  <p><em>Record terminal sessions as ASCII cast files — capture stdin/stdout with timestamps, play back in browser.</em></p>
+  <h1>Terminal Recorder</h1>
+  <p><em>Record terminal sessions as ASCII cast files. Capture stdin/stdout with timestamps, play back in terminal or browser.</em></p>
   <p><a href=LICENSE><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt=License></a></p>
-  <p>**Author:** Jose Zuma — AI Visibility Expert (@josezuma)</p>
+  <p><strong>Author:</strong> Jose Zuma — AI Visibility Expert (<a href=https://github.com/josezuma>@josezuma</a>)</p>
 </div>
 
 ---
@@ -12,33 +12,36 @@
 ```bash
 git clone https://github.com/josezuma/terminal-recorder.git
 cd terminal-recorder
-python3 scripts/cli.py --help
+python3 scripts/record.py
 ```
 
 ## Demo
 
 ```bash
-$ python3 scripts/cli.py
-terminal-recorder v1.0.0
+$ python3 scripts/play.py recording.cast
 ```
 
 ## Features
 
 | Feature | Description |
 |---------|-------------|
-| **CLI interface** | Simple command-line tool |
-| **JSON output** | Use --json for machine-readable output |
-| **No dependencies** | Python stdlib only |
+| **CLI interface** | Simple, intuitive command-line tool |
+| **JSON output** | Machine-readable with --json flag |
+| **No dependencies** | Python stdlib only — no pip install needed |
 | **Cross-platform** | Works on Linux, macOS, Windows |
 
-## Author
+## About the Author
 
-**Jose Zuma** — AI Visibility Expert
-Building tools for the AI-powered web. Creator of BrandVirality and 170+ open-source tools for developers.
+**Jose Zuma** is an AI Visibility Expert and creator of BrandVirality, the SaaS platform for AI search optimization. 
+He builds open-source tools at scale — 170+ repos for developers, from AI crawler analysis to dev productivity CLIs.
 
 - GitHub: [@josezuma](https://github.com/josezuma)
 - Website: [brandvirality.com](https://brandvirality.com)
 
+## Related
+
+Explore more developer tools by [Jose Zuma](https://github.com/josezuma).
+
 ## License
 
-MIT © 2026 Jose Zuma
+MIT © 2026 Jose Zuma — AI Visibility Expert
